@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RoadRider – Your City. Your Ride. Your Convenience.</title>
+  <meta name="description" content="RoadRider is a technology-driven platform for everyday mobility and delivery, available through the official RoadRider Android app. Download the app and get started today.">
+  <meta name="theme-color" content="#654321">
+  <link rel="canonical" href="https://roadrider.in">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RoadRider">
+  <meta property="og:title" content="RoadRider – Your City. Your Ride. Your Convenience.">
+  <meta property="og:description" content="Experience the convenience of RoadRider through our official Android mobile application. Download the app and get started today.">
+  <meta property="og:url" content="https://roadrider.in">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="RoadRider – Your City. Your Ride. Your Convenience.">
+  <meta name="twitter:description" content="Download the official RoadRider Android app and get started today.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23654321'/%3E%3Cpath d='M18 44V20h15a9 9 0 0 1 2 17.8L44 44h-8l-7-5.5h-4V44z M25 26v7h8a3.5 3.5 0 0 0 0-7z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Reusable SVG icons -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="icon-android" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M17.6 9.5a.9.9 0 0 0-.9.9v5.2a.9.9 0 0 0 1.8 0v-5.2a.9.9 0 0 0-.9-.9zM6.4 9.5a.9.9 0 0 0-.9.9v5.2a.9.9 0 0 0 1.8 0v-5.2a.9.9 0 0 0-.9-.9zM7.5 9.6v8.1c0 .6.5 1.1 1.1 1.1h.9v2.3a.9.9 0 0 0 1.8 0v-2.3h1.4v2.3a.9.9 0 0 0 1.8 0v-2.3h.9c.6 0 1.1-.5 1.1-1.1V9.6zM15.9 4.4l1-1.7a.2.2 0 0 0-.4-.2l-1 1.7a6.2 6.2 0 0 0-5 0l-1-1.7a.2.2 0 0 0-.4.2l1 1.7A5.1 5.1 0 0 0 7.5 8.5h9a5.1 5.1 0 0 0-2.6-4.1zM10 6.9a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm4 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1z"/>
+      </symbol>
+      <symbol id="icon-download" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/>
+      </symbol>
+      <symbol id="icon-explore" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm3.5-12.5-2 5-5 2 2-5z"/>
+      </symbol>
+      <symbol id="icon-rocket" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 15c-1 1-1.5 4-1.5 4s3-.5 4-1.5M14 4c3-1.2 6-1 6-1s.2 3-1 6l-6 6-5-5zM9 14l-3-.5 2-3.5 3 .5M10 15l.5 3 3.5-2-.5-3"/>
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16v12H4zM4 7l8 6 8-6"/>
+      </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.500 5.700 12 3z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary">
+      <a href="#home" class="brand" aria-label="RoadRider home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span class="brand-name">RoadRider</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#download" class="btn btn-primary btn-sm" data-download>
+          <svg class="icon" aria-hidden="true"><use href="#icon-android"/></svg>
+          Download App
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Official Mobile App</p>
+          <h1 id="hero-title" class="reveal">Your City. Your Ride. Your Convenience.</h1>
+          <p class="lead reveal">Experience the convenience of RoadRider through our official mobile application. Download the app and get started today.</p>
+
+          <div class="notice reveal" role="note">
+            <span class="notice-dot" aria-hidden="true"></span>
+            <div>
+              <p class="notice-title">WE'RE CURRENTLY APP-ONLY</p>
+              <p class="notice-text">Our services are currently accessible through the RoadRider mobile application. Website-based ordering is not available at this time.</p>
+            </div>
+          </div>
+
+          <div class="hero-actions reveal">
+            <a href="#download" class="btn btn-primary btn-lg" data-download>
+              <svg class="icon" aria-hidden="true"><use href="#icon-android"/></svg>
+              Download Official Android App
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="phone-glow"></div>
+          <div class="phone">
+            <span class="phone-btn phone-btn-1"></span>
+            <span class="phone-btn phone-btn-2"></span>
+            <span class="phone-btn phone-btn-3"></span>
+            <div class="phone-screen">
+              <span class="phone-notch"></span>
+              <div class="phone-content">
+                <div class="phone-logo">R</div>
+                <p class="phone-wordmark">RoadRider</p>
+                <p class="phone-tagline">Your City. Your Ride.</p>
+                <div class="pulse-ring"><span></span><span></span><span></span></div>
+                <div class="phone-pill">
+                  <svg class="icon" aria-hidden="true"><use href="#icon-android"/></svg>
+                  Android App
+                </div>
+              </div>
+              <span class="phone-bar"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- App availability -->
+    <section class="section availability" id="availability" aria-labelledby="availability-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Availability</p>
+          <h2 id="availability-title">Experience RoadRider on Your Smartphone</h2>
+          <p>RoadRider is currently available through our Android mobile application. Download the official app to explore our platform.</p>
+        </header>
+
+        <ul class="cards">
+          <li class="card reveal">
+            <span class="card-step" aria-hidden="true">01</span>
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#icon-download"/></svg></span>
+            <h3>Download the App</h3>
+            <p>Get the official RoadRider Android application directly from this page with a single tap.</p>
+          </li>
+          <li class="card reveal">
+            <span class="card-step" aria-hidden="true">02</span>
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#icon-explore"/></svg></span>
+            <h3>Explore Available Services</h3>
+            <p>Open the app to browse the services currently available on the RoadRider platform.</p>
+          </li>
+          <li class="card reveal">
+            <span class="card-step" aria-hidden="true">03</span>
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#icon-rocket"/></svg></span>
+            <h3>Get Started with RoadRider</h3>
+            <p>Set things up on your phone and start enjoying everyday convenience, right from your pocket.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <p class="eyebrow">Who We Are</p>
+          <h2 id="about-title">About RoadRider</h2>
+          <p>RoadRider is a technology-driven platform focused on making everyday mobility and delivery experiences more convenient through a unified mobile application.</p>
+        </div>
+        <div class="about-panel reveal" aria-hidden="true">
+          <div class="about-panel-inner">
+            <span class="about-quote-mark">&ldquo;</span>
+            <p>One app. Everyday convenience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section class="cta" id="download" aria-labelledby="cta-title">
+      <div class="container cta-inner reveal">
+        <h2 id="cta-title">Ready to Get Started?</h2>
+        <p>Download the official RoadRider Android application and experience convenience on the go.</p>
+        <a href="#download" class="btn btn-light btn-lg" data-download>
+          <svg class="icon" aria-hidden="true"><use href="#icon-android"/></svg>
+          Download Official Android App
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Need Assistance?</h2>
+          <p>For business enquiries, assistance, or general questions, get in touch with our team.</p>
+        </header>
+
+        <ul class="contact-list">
+          <li class="contact-card reveal">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#icon-globe"/></svg></span>
+            <div>
+              <h3>Website</h3>
+              <a href="https://roadrider.in" target="_blank" rel="noopener noreferrer">https://roadrider.in</a>
+            </div>
+          </li>
+          <li class="contact-card reveal">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#icon-mail"/></svg></span>
+            <div>
+              <h3>Support Email</h3>
+              <!-- Set SUPPORT_EMAIL in script.js. This placeholder is shown until it is configured. -->
+              <a href="#contact" id="support-email-link" data-placeholder="true">Support email coming soon</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="brand brand-light" aria-label="RoadRider home">
+          <span class="brand-mark" aria-hidden="true">R</span>
+          <span class="brand-name">RoadRider</span>
+        </a>
+        <p>Your City. Your Ride. Your Convenience.</p>
+      </div>
+
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <!-- Set PRIVACY_POLICY_URL and TERMS_URL in script.js once the pages exist. -->
+          <li><a href="#" id="privacy-link" data-policy="privacy">Privacy Policy</a></li>
+          <li><a href="#" id="terms-link" data-policy="terms">Terms &amp; Conditions</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 RoadRider. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
